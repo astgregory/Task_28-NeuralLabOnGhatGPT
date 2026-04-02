@@ -42,7 +42,6 @@
     if "OPENAI_API_KEY" not in os.environ:
         os.environ["OPENAI_API_KEY"] = getpass.getpass("Введите OpenAI API Key:")
         
-    ``` 
 5. Запустите все ячейки последовательно.
 
 6. После запуска интерфейса Gradio откроется публичная ссылка для доступа к веб‑приложению.
